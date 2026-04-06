@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This is a fork of [lldap/lldap](https://github.com/lldap/lldap/) for use with mi pona specifically. You likely do not want to use this.
+
 <h1 align="center">lldap - Light LDAP implementation for authentication</h1>
 
 <p align="center">
