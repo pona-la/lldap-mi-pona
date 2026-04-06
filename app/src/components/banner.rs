@@ -20,7 +20,7 @@ pub fn banner(props: &Props) -> Html {
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href={yew_router::utils::base_url().unwrap_or("/".to_string())} class="d-flex align-items-center mt-2 mb-lg-0 me-md-5 text-decoration-none">
-              <h2>{"LLDAP"}</h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" height="42" width="42"><circle cx="250" cy="250" r="242.643" fill="#fff"></circle><g stroke="#000"><path fill="none" stroke-width="32.28368" d="M185.433 199.337c-13.41-126.154 130.376-118.456 130.376-45.445"></path><path fill="#c3c3c3" stroke-width="29.80032" d="M172.271 193.625H327.73c13.716 0 24.834 11.118 24.834 24.834v155.458c0 13.716-11.118 24.834-24.834 24.834H172.271c-13.713 0-24.834-11.118-24.834-24.834V218.46c0-13.716 11.121-24.834 24.834-24.834Z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32.28368" d="M198.098 285.013c0 65.064 103.804 65.064 103.804 0"></path></g></svg>
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
