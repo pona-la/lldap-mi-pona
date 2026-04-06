@@ -88,7 +88,7 @@ pub async fn send_password_reset_email(
     options: &MailOptions,
 ) -> Result<()> {
     let to = to.parse()?;
-    let mut reset_url = server_url.clone();
+    let mut reset_url = "https://mi.pona.la/";
     reset_url
         .path_segments_mut()
         .unwrap()
